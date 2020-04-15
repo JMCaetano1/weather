@@ -7,18 +7,27 @@ import { ApiWeatherService } from "../api-weather.service";
   styleUrls: ['./search.component.css']
 })
 export class SearchComponent implements OnInit {
-  weather:any 
+  weather: any
+  city: string
 
-  constructor(private apiservice:ApiWeatherService) { }
+
+  constructor(private apiservice: ApiWeatherService) { }
 
   ngOnInit(): void {
-    this.apiservice.getWeather("Raleigh,NC").subscribe((res)=>{
-      this.weather = new Object(res);
-      console.log(this.weather.data);
-    });
+
 
   }
 
+  getCity(event) {
+    this.city = event.target.value
+    console.log(this.city)
+  }
 
+  sendCity(event) {
+    this.apiservice.getWeather(this.city).subscribe((res) => {
+      this.weather = new Object(res);
+      console.log(this.weather.data);
+    });
+  }
 
 }

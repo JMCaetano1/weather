@@ -1,4 +1,6 @@
 <div class="container-search">
-    <input type="text" class="search" placeholder='Localização...'>
-    <button class="stylebutton">Buscar</button>
+    <input type="text" class="search" placeholder='Localização...' (change)='getCity($event)'>
+    <button class="stylebutton" (click)='sendCity($event)'>Buscar</button>
+
+
 </div>
