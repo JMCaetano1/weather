@@ -1,23 +1,10 @@
-<<<<<<< HEAD
-.background{
-=======
-/* @import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700&display=swap')  */
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.container-main {
->>>>>>> 68102388e1e29ee916545047921b64f0f7156376
+.background{ 
   background: url("../assets/img/thunder.jpg") no-repeat;
   width: 100%;
   height: 100vh;
   background-size: cover;
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
   font-family: 'Comfortaa', cursive;
   color: white;
 }
@@ -34,8 +21,6 @@
   font-size: 50px;
   
 }
-
-
 .container-main {
   display: flex;
   flex-direction: column;
@@ -43,7 +28,3 @@
   align-self: center;
   
 }
-
-=======
-}
->>>>>>> 68102388e1e29ee916545047921b64f0f7156376
