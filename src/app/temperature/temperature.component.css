@@ -1,0 +1,25 @@
+.container{
+  margin: 150px 50px 10px 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.locale {
+  line-height: 2;
+  display: flex;
+}
+
+.locale h4 {
+  margin-right: 30px;
+}
+
+.info {
+  display: flex;
+  line-height: 2;
+}
+
+.info h3{
+  margin-right: 30px;
+}
