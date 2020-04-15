@@ -17,13 +17,11 @@
 }
 
 .title {
-  margin: 50px 0px 150px 0px;
+  margin: 50px 0px 100px 0px;
   font-size: 50px;
 }
 
 .container-main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-self: center;
 }
