@@ -5,8 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TemperatureComponent } from './temperature/temperature.component';
 import { SearchComponent } from './search/search.component';
-// import { HttpClient } from "@angular/common/http";
-// import { ApiWeatherService } from './api-weather.service';
+import { HttpClientModule } from "@angular/common/http";
+import { ApiWeatherService } from './api-weather.service';
 
 @NgModule({
   declarations: [
@@ -17,10 +17,10 @@ import { SearchComponent } from './search/search.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    // HttpClient,
-    // ApiWeatherService
+    HttpClientModule
+    
   ],
-  providers: [],
+  providers: [ApiWeatherService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
