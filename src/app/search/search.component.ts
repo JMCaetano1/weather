@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+// import { ApiWeatherService } from "../api-weather.service";
 
 @Component({
   selector: 'app-search',
@@ -10,6 +11,10 @@ export class SearchComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
+
   }
+
+
 
 }
