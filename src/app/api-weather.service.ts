@@ -12,7 +12,7 @@ export class ApiWeatherService {
   constructor(private http: HttpClient) { }
 
   getWeather(local: string) {
-    let apiWeather = `${this.baseUrl}city=${local}&lang=pt&key=${this.key}`
+    let apiWeather = `${this.baseUrl}city=${local}&country=BR&lang=pt&key=${this.key}`
 
     return this.http.get(apiWeather);
   }
