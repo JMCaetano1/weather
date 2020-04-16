@@ -43,7 +43,12 @@ h1 {
 }
 
 .info {
-  margin-top: -120px;
+  margin-top: -200px;
   margin-left: 200px;
 
+}
+
+.Semana {
+  text-align: center;
+  margin-top: 25px;
 }
