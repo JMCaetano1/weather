@@ -12,23 +12,19 @@
 }
 
 .components{
-  border-style: solid;
+  /* border-style: solid;
   border-color: 1px black;
-  border-radius: 10px;
+  border-radius: 10px; */
   left: 25%;
   padding: 0;
   /* margin: 0 auto; */
   position: absolute;
   z-index: 1;
-  background: rgba(255, 255, 255, 0.7)
+  /* background: rgba(255, 255, 255, 0.7) */
+  background: none;
   
 }
 
-.title {
-  background: none;
-  margin: 50px 0px 100px 0px;
-  font-size: 50px;
-}
 
 /* Estilização Background e Nuvens*/
 
