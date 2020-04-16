@@ -31,3 +31,27 @@ h1 {
     margin-top: 0;
 
 }
+
+.center {
+  margin: auto;
+
+}
+
+.center h1 {
+  font-size: 65px;
+}
+
+.center h2 {
+  font-size: 50px;
+}
+
+.info {
+  margin-top: -200px;
+  margin-left: 200px;
+
+}
+
+.Semana {
+  text-align: center;
+  margin-top: 25px;
+}
