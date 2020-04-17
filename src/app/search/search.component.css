@@ -1,43 +1,74 @@
-*{
-  background: none;
-}
-.container-search{
-  width: 600px;
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
+* {
+    background: none;
 }
 
-.search{
-  background: none;
-  border: none;
-  border-bottom: 2px solid #333;
-  margin-right: 20px;
-  width: 100%;
-  font-size: 30px;
-  color: Black;
-  padding: 10px;
+.container-search {
+    width: 600px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: flex-end;
 }
 
-::placeholder{
-  color: #333;
-  opacity: 50%;
+.icon-current-weather {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.stylebutton{
-  padding: 10px;
-  border-radius: 10%;
-  height: 15%;
+.current-more {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.current-temperature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.speed-wind,
+.umidity-relative {
+    display: flex;
+    flex-direction: row;
+}
+
+.search {
+    background: none;
+    border: none;
+    border-bottom: 2px solid #333;
+    margin-right: 20px;
+    width: 100%;
+    font-size: 30px;
+    color: Black;
+    padding: 10px;
+}
+
+::placeholder {
+    color: #333;
+    opacity: 50%;
+}
+
+.stylebutton {
+    padding: 10px;
+    border-radius: 10%;
+    height: 15%;
 }
 
 input:focus {
-  outline:none;
+    outline: none;
 }
 
-button:focus{
-  outline:none;
+button:focus {
+    outline: none;
 }
 
-button:hover{
-  background: #145774;
+button:hover {
+    background: #145774;
 }

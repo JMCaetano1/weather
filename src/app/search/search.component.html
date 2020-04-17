@@ -1,6 +1,24 @@
 <div class="container-search">
     <input type="text" class="search" placeholder='Localização...' onfocus="this.placeholder = ''" onblur="this.placeholder = 'Localização...'" (change)='getCity($event)'>
     <button class="stylebutton" (click)='sendCity($event)'>Buscar</button>
+</div>
+
+<div class="icon-current-weather">
+    <ul class="current-more">
+        <li class="speed-wind">
+            <h3><span> Velocidade do Vento: </span><span> {{ weather.data[0].wind_spd }} m/s </span></h3>
+
+        </li>
+        <li class="umidity-relative">
+            <h3><span> Humidade relativa: </span><span> {{ weather.data[0].rh }} % </span></h3>
+
+        </li>
+    </ul>
+    <div class="current-temperature">
+        <span class="icon-temperature"><img height="50" width="50" src="https://www.weatherbit.io/static/img/icons/{{weather.data[0].weather.icon}}.png"/></span>
+        <span class="current-temperature">{{ weather.data[0].temp}}˚</span>
+        <span class="current-city">{{ weather.data[0].city_name | uppercase }}</span>
+    </div>
 
 
 </div>
